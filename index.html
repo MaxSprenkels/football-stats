@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="../dist/output.css">
 </head>
 <body>
     <!-- component -->
@@ -22,21 +23,19 @@
               <span>
                 <img src="img/profile.svg" alt="profile" class="h-8 w-8 text-yellow-400" />
               </span>
-              <span class="text-gray-50">Spelers</span>
+              <a href="#"> <span class="text-gray-50">Spelers</span></a>
             </div>
             <div class="flex items-center space-x-2">
               <span>
                 <img src="img/stats.svg" alt="stats" class="h-8 w-8 text-yellow-400" />
               </span>
-              <span class="text-gray-50">Stats</span>
+              <a href="#"><span class="text-gray-50">Stats</span></a>
             </div>
             <div class="flex items-center space-x-2">
               <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
+                <img src="img/team.svg" alt="teams" class="h-8 w-8 text-yellow-400" />
               </span>
-              <span class="text-gray-50">Teams</span>
+              <a href="#" class="hover:text-yellow-400"><span class="text-gray-50">Teams</span></a>
             </div>
           </div>
           <div class="lg:flex hidden items-center space-x-2 bg-white py-1 px-2 rounded-full">
@@ -51,9 +50,9 @@
       </nav>
     </header>
   </body>
-  <div class="bg-gray-200 font-sans h-screen w-full flex flex-row justify-center items-center">
-    <div class="card w-96 mx-4 bg-yellow-400 shadow-xl hover:shadow rounded-xl">
-        <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25900517.ece/ALTERNATES/s1200c/0_GettyImages-1245966076.jpg" alt="">
+  <div class="bg-gray-200 gap-4 font-sans h-screen w-full flex flex-row justify-center items-center">
+    <div class="card w-96 bg-yellow-400 shadow-xl hover:shadow rounded-xl">
+        <img class="w-32 mx-auto rounded-tr-3xl -mt-20 border-8 border-gray-700" src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25900517.ece/ALTERNATES/s1200c/0_GettyImages-1245966076.jpg" alt="">
         <div class="text-center mt-2 text-3xl font-medium">Cristiano Ronaldo</div>
         <div class="text-center font-normal text-lg">Al Nassr FC</div>
         <div class="px-6 text-center mt-2 font-light text-sm">
@@ -76,8 +75,8 @@
           <a href="" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition duration-300">Lees meer</a>
         </div>
       </div>
-     <div class="card w-96 mx-4 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
-       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://i2-prod.mirror.co.uk/incoming/article25094393.ece/ALTERNATES/s1200c/1_Paris-Saint-Germain-v-Manchester-City-Group-A-UEFA-Champions-League.jpg" alt="">
+     <div class="card w-96 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
+       <img class="w-32 mx-auto rounded-tl-3xl -mt-20 border-8 border-gray-700" src="https://i2-prod.mirror.co.uk/incoming/article25094393.ece/ALTERNATES/s1200c/1_Paris-Saint-Germain-v-Manchester-City-Group-A-UEFA-Champions-League.jpg" alt="">
        <div class="text-center mt-2 text-3xl font-medium">Lionel Messi</div>
        <div class="text-center font-normal text-lg">Paris Saint-Germain</div>
        <div class="px-6 text-center mt-2 font-light text-sm">
@@ -101,9 +100,9 @@
       </div>
      </div>
   </div>
-  <div class="bg-gray-200 font-sans h-screen w-full flex flex-row justify-center items-center">
-    <div class="card w-96 mx-4 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
-       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://i.superesportes.com.br/3x0hTpia90xL3naJphz1j4av2dQ=/1200x1200/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2022/10/18/3978087/neymar_1_43039.jpg" alt="">
+  <div class="bg-gray-200 gap-4 font-sans h-screen w-full flex flex-row justify-center items-center">
+    <div class="card w-96 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
+       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-gray-700" src="https://i.superesportes.com.br/3x0hTpia90xL3naJphz1j4av2dQ=/1200x1200/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2022/10/18/3978087/neymar_1_43039.jpg" alt="">
        <div class="text-center mt-2 text-3xl font-medium">Neymar</div>
        <div class="text-center font-normal text-lg">Paris Saint-Germain</div>
        <div class="px-6 text-center mt-2 font-light text-sm">
@@ -126,8 +125,8 @@
         <a href="" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition duration-300">Lees meer</a>
       </div>
      </div>
-     <div class="card w-96 mx-4 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
-       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3OTUyMTkxMDc4NjcyMTcw/imago1010473046h.jpg" alt="">
+     <div class="card w-96 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
+       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-gray-700" src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3OTUyMTkxMDc4NjcyMTcw/imago1010473046h.jpg" alt="">
        <div class="text-center mt-2 text-3xl font-medium">Karim Benzema</div>
        <div class="text-center font-normal text-lg">Real Madrid</div>
        <div class="px-6 text-center mt-2 font-light text-sm">
