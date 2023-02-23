@@ -8,8 +8,51 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <!-- component -->
+<body>
+    <header>
+        <nav class="bg-gray-700 sticky top-0">
+          <div class="container mx-auto py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+              <img class="h-8 w-8" src="img/football.svg" alt="logo" />
+              <h2 class="text-2xl font-bold text-gray-50">Football Stats</h2>
+            </div>
+          <div class="flex space-x-10">
+            <div class="flex items-center space-x-2">
+              <span>
+                <img src="img/profile.svg" alt="profile" class="h-8 w-8 text-yellow-400" />
+              </span>
+              <span class="text-gray-50">Spelers</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span>
+                <img src="img/stats.svg" alt="stats" class="h-8 w-8 text-yellow-400" />
+              </span>
+              <span class="text-gray-50">Stats</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+              </span>
+              <span class="text-gray-50">Teams</span>
+            </div>
+          </div>
+          <div class="lg:flex hidden items-center space-x-2 bg-white py-1 px-2 rounded-full">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </span>
+            <input class="outline-none" type="text" placeholder="Search" />
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
   <div class="bg-gray-200 font-sans h-screen w-full flex flex-row justify-center items-center">
-    <div class="card w-96 mx-4 bg-white  shadow-xl hover:shadow">
+    <div class="card w-96 mx-4 bg-yellow-400 shadow-xl hover:shadow">
        <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25900517.ece/ALTERNATES/s1200c/0_GettyImages-1245966076.jpg" alt="">
        <div class="text-center mt-2 text-3xl font-medium">Cristiano Ronaldo</div>
        <div class="text-center font-normal text-lg">Al Nassr FC</div>
@@ -30,7 +73,7 @@
          </div>
        </div>
      </div>
-     <div class="card w-96 mx-4 bg-white  shadow-xl hover:shadow">
+     <div class="card w-96 mx-4 bg-yellow-400  shadow-xl hover:shadow">
        <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://i2-prod.mirror.co.uk/incoming/article25094393.ece/ALTERNATES/s1200c/1_Paris-Saint-Germain-v-Manchester-City-Group-A-UEFA-Champions-League.jpg" alt="">
        <div class="text-center mt-2 text-3xl font-medium">Lionel Messi</div>
        <div class="text-center font-normal text-lg">Paris Saint-Germain</div>
@@ -48,6 +91,50 @@
          </div>
          <div class="w-1/2 text-center">
            <span class="font-bold">306</span> Assists
+         </div>
+       </div>
+     </div>
+  </div>
+  <div class="bg-gray-200 font-sans h-screen w-full flex flex-row justify-center items-center">
+    <div class="card w-96 mx-4 bg-yellow-400  shadow-xl hover:shadow">
+       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://i.superesportes.com.br/3x0hTpia90xL3naJphz1j4av2dQ=/1200x1200/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2022/10/18/3978087/neymar_1_43039.jpg" alt="">
+       <div class="text-center mt-2 text-3xl font-medium">Neymar</div>
+       <div class="text-center font-normal text-lg">Paris Saint-Germain</div>
+       <div class="px-6 text-center mt-2 font-light text-sm">
+         <p>
+            Neymar is een Braziliaanse voetballer met technische vaardigheden en snelheid, die bij Barcelona en PSG heeft gespeeld en prijzen heeft gewonnen.
+         </p>
+       </div>
+       <hr class="mt-8">
+       <div class="flex p-4">
+         <div class="w-1/2 text-center">
+           <span class="font-bold">293</span> Goals
+         </div>
+         <div class="w-0 border border-gray-300">
+         </div>
+         <div class="w-1/2 text-center">
+           <span class="font-bold">188</span> Assists
+         </div>
+       </div>
+     </div>
+     <div class="card w-96 mx-4 bg-yellow-400  shadow-xl hover:shadow">
+       <img class="w-32 mx-auto rounded-full -mt-20 border-8 border-white" src="https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3OTUyMTkxMDc4NjcyMTcw/imago1010473046h.jpg" alt="">
+       <div class="text-center mt-2 text-3xl font-medium">Karim Benzema</div>
+       <div class="text-center font-normal text-lg">Real Madrid</div>
+       <div class="px-6 text-center mt-2 font-light text-sm">
+         <p>
+            Karim Benzema is een doelgerichte en technisch vaardige spits voor Real Madrid en Frankrijk, met meer dan 200 doelpunten en diverse titels en prijzen.
+         </p>
+       </div>
+       <hr class="mt-8">
+       <div class="flex p-4">
+         <div class="w-1/2 text-center">
+           <span class="font-bold">405</span> Goals
+         </div>
+         <div class="w-0 border border-gray-300">
+         </div>
+         <div class="w-1/2 text-center">
+           <span class="font-bold">190</span> Assists
          </div>
        </div>
      </div>
