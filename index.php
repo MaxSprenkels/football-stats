@@ -9,45 +9,9 @@
 </head>
 <body>
 <body>
-    <header>
-        <nav class="bg-gray-700 sticky top-0">
-          <div class="container mx-auto py-4 flex justify-between items-center">
-            <div class="flex items-center space-x-4">
-              <img class="h-8 w-8" src="img/football.svg" alt="logo" />
-              <h2 class="text-2xl font-bold text-gray-50">Football Stats</h2>
-            </div>
-          <div class="flex space-x-10">
-            <div class="flex items-center space-x-2">
-              <span>
-                <img src="img/profile.svg" alt="profile" class="h-8 w-8 text-yellow-400" />
-              </span>
-              <a href="#"> <span class="text-gray-50">Spelers</span></a>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span>
-                <img src="img/stats.svg" alt="stats" class="h-8 w-8 text-yellow-400" />
-              </span>
-              <a href="#"><span class="text-gray-50">Stats</span></a>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span>
-                <img src="img/team.svg" alt="teams" class="h-8 w-8 text-yellow-400" />
-              </span>
-              <a href="#" class="hover:text-yellow-400"><span class="text-gray-50">Teams</span></a>
-            </div>
-          </div>
-          <div class="lg:flex hidden items-center space-x-2 bg-white py-1 px-2 rounded-full">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </span>
-            <input class="outline-none" type="text" placeholder="Zoek een speler" />
-          </div>
-        </div>
-      </nav>
-    </header>
-  </body>
+  <?php
+    include 'nav.html';
+    ?>
   <div class="bg-gray-200 gap-4 font-sans h-screen w-full flex flex-row justify-center items-center">
     <div class="card w-96 bg-yellow-400 shadow-xl hover:shadow rounded-xl">
         <img class="w-32 mx-auto rounded-tr-3xl -mt-20 border-8 border-gray-700" src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25900517.ece/ALTERNATES/s1200c/0_GettyImages-1245966076.jpg" alt="">
@@ -70,7 +34,7 @@
           </div>
         </div>
         <div class="mt-4 flex justify-center">
-          <a href="description.html" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition duration-300">Lees meer</a>
+          <a href="description.php" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition duration-300">Lees meer</a>
         </div>
       </div>
      <div class="card w-96 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
