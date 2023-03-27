@@ -22,13 +22,13 @@
                     class="w-full h-full rounded-tl-lg rounded-tr-lg">
             </div>
             <div class="flex flex-col items-center -mt-20">
-                <img src="https://i2-prod.manchestereveningnews.co.uk/incoming/article25900517.ece/ALTERNATES/s1200c/0_GettyImages-1245966076.jpg"
+                <img src="https://i2-prod.mirror.co.uk/incoming/article25094393.ece/ALTERNATES/s1200c/1_Paris-Saint-Germain-v-Manchester-City-Group-A-UEFA-Champions-League.jpg"
                     class="w-40 border-4 border-white rounded-full">
                 <div class="flex items-center space-x-2 mt-2">
-                    <p class="text-gray-100 text-2xl">Cristiano Ronaldo</p>
+                    <p class="text-gray-100 text-2xl">Lionel Messi</p>
                 </div>
-                <p class="text-gray-200">Al Nassr FC</p>
-                <p class="text-sm text-gray-300">Funchal, Portugal</p>
+                <p class="text-gray-200">Paris Saint-Germain</p>
+                <p class="text-sm text-gray-300">Rosario, Argentinië</p>
             </div>
         </div>
 
@@ -39,36 +39,35 @@
                     <ul class="mt-2 text-gray-200">
                         <li class="flex border-y py-2">
                             <span class="font-bold w-24">Full name:</span>
-                            <span class="text-gray-200">Cristiano Ronaldo dos Santos Aveiro</span>
+                            <span class="text-gray-200">Lionel Andrés Messi Cuccittini</span>
                         </li>
                         <li class="flex border-b py-2">
                             <span class="font-bold w-24">Birthday:</span>
-                            <span class="text-gray-200">5 Feb, 1985</span>
+                            <span class="text-gray-200">24 Jun, 1987</span>
                         </li>
                         <li class="flex border-b py-2">
                             <span class="font-bold w-24">Debut:</span>
-                            <span class="text-gray-200">Okt 2002</span>
+                            <span class="text-gray-200">Okt 2004</span>
                         </li>
                         <li class="flex border-b py-2">
                             <span class="font-bold w-24">Goals:</span>
-                            <span class="text-gray-200">823</span>
+                            <span class="text-gray-200">750</span>
                         </li>
                         <li class="flex border-b py-2">
                             <span class="font-bold w-24">Assists:</span>
-                            <span class="text-gray-200">155</span>
+                            <span class="text-gray-200">306</span>
                         </li>
                         <li class="flex border-b py-2">
                             <span class="font-bold w-24">Gele kaarten:</span>
-                            <span class="text-gray-200">119</span>
+                            <span class="text-gray-200">86</span>
                         </li>
                         <li class="flex border-b py-2">
                             <span class="font-bold w-24">Rode kaarten:</span>
-                            <span class="text-gray-200">11</span>
+                            <span class="text-gray-200">2</span>
                         </li>
                         <li class="flex items-center border-b py-2 space-x-2">
                             <span class="font-bold w-24">Clubs:</span>
-                            <span class="text-gray-200">Sporting CP, Manchester United, Real Madrid, Juventus, Al Nassr
-                                FC</span>
+                            <span class="text-gray-200">FC Barcelona en Paris Saint-Germain</span>
                         </li>
                     </ul>
                 </div>
@@ -77,15 +76,12 @@
         <div class="flex flex-col w-full 2xl:w-2/3">
             <div class="flex-1 bg-gray-700 rounded-lg shadow-xl p-8">
                 <h4 class="text-xl text-gray-200 font-bold">About</h4>
-                <p class="mt-2 text-gray-200">Cristiano Ronaldo is een Portugese voetballer die bekend staat om zijn
-                    ongelooflijke technische vaardigheden en doelpunten.
-                    Hij begon zijn professionele carrière bij Sporting CP voordat hij werd overgenomen door Manchester
-                    United.
-                    Daarna speelde hij voor Real Madrid en momenteel speelt hij voor Manchester United. Ronaldo heeft
-                    talloze prijzen en onderscheidingen gewonnen,
-                    waaronder de Ballon d'Or en de Champions League, en wordt beschouwd als een van de grootste
-                    voetballers aller tijden. Naast zijn voetbalprestaties staat hij ook bekend om zijn filantropische
-                    werk.</p>
+                <p class="mt-2 text-gray-200">Lionel Messi is een Argentijnse voetballer die bekend staat om
+                    zijn ongelooflijke balbeheersing en technische vaardigheden op het veld. Hij begon zijn carrière bij FC Barcelona
+                    en heeft daar zijn hele carrière gespeeld, met uitzondering van zijn huidige club, Paris Saint-Germain. Messi heeft talloze prijzen
+                    en onderscheidingen gewonnen, waaronder de Ballon d'Or en de Champions League, en wordt beschouwd als een van de grootste voetballers aller tijden.
+                    Naast zijn voetbalprestaties staat hij ook bekend om zijn filantropische werk en zijn inzet voor het ondersteunen van kinderen met medische behoeften via zijn stichting,
+                    de Leo Messi Foundation.</p>
             </div>
 
             <div class="mt-4">
@@ -97,7 +93,7 @@
     </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="messi.js"></script>
 </body>
 
 </html>
