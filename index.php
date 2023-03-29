@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="mt-4 flex justify-center">
-          <a href="ronaldo.php" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition duration-300">Lees meer</a>
+          <a href="pl.php" class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 transition duration-300">Lees meer</a>
         </div>
       </div>
      <div class="card w-96 bg-yellow-400  shadow-xl hover:shadow rounded-xl">
